@@ -44,15 +44,25 @@ h3 {
     
 }
 
-.apps , .entree , .dessert , .drinks {
+.apps , .steak , .dessert , .drinks , .chicken {
     color: #fee7ef;
     margin:auto;
     border: 3px solid  #fee7ef;
     margin: 0px 30% 20px 30%;
     padding-bottom: 20px;
-    display:flexbox;
+    display:block;
     background-color: white;
 
+}
+
+.steak {
+
+    display:none;
+}
+
+.chicken {
+
+    display:none;
 }
 
 p{

@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
 </head>
-
+<div id="wrapper">
 <body>
     
     <header>
@@ -24,60 +24,83 @@
         <h1>Charlie's</h1>
             <h2>Valentine's Day Menu</h2>
     </header>
+<div class="menuOptionText">
+    <label id="menu_selection">Please select which menu options you would like:</label></br>
+        <div class="beefMenuDiv">
+            <input type="checkbox" id="beef_menu" value="beef_interest" name="user_interest">
+            <label class="light" for="beef_menu">Beef</label></br>
+        </div>
 
+        <div class="chickenMenuDiv">
+        <input type="checkbox" id="chicken_menu" value="chicken_interest" name="user_interest">
+            <label class="light" for="chicken_menu">Chicken</label></br>
+        </div>
+        <div class="vegetarianMenuDiv">
+         <input type="checkbox" id="vegetarian_menu" value="vegetarian_interest" name="user_interest">
+            <label class="light" for="vegetarian_menu">Vegetarian</label></br>
+        </div>
+        <div class="seafoodMenuDiv">
+            <input type="checkbox" id="seafood_menu" value="vegetarian_interest" name="user_interest">
+            <label class="light" for="seafood_menu">Seafood</label></br>
+        </div>
+
+        </input>
+    </div>
+    </br>
     <section class="apps">
         <h3>Appetizers</h3>
         <strong><p>Charcuterie Board</p></strong>
         <ul>
-            <li>Artisan Cheeses</li>
+            <li>&#9726; Artisan Cheeses</li>
             <li>&#9726; Cured Meats</li>
             <li>&#9726; Petits Toasts</li>
             <li>&#9726; Preserves</li>
         </ul>
 
-        <strong><p>Grilled Asparagus</p></strong>
-        <ul>
-            <li>Hint of Lemon</li>
-            <li>&#9726; Parmesan</li>
-        </ul>
-
+    
 
     </section>
 
-    <section class="steak">
+    <section class="steak chicken vegetarian seafood entrees" >
         <h3>Entrees</h3>
-        
+
+        <div id="steak">
+
         <strong><p>Cast Iron Filet Mignon</p></strong>
         <ul> 
-            <li>8oz Filet Mignon</li>
-            <li>&#9726; Salt & Pepper</li>
+            <li>&#9726; 8oz Filet Mignon</li>
+            <li>&#9726; Salt & Pepper Crusted</li>
             <li>&#9726; Roquefort Rosemary Butter</li>
+            <li>&#9726; Roasted Broccolini</li>
             
         </ul>
 
-        <strong><p>Coconut Shrimp</p></strong>
-        <ul>
-            <li>Fresh Shrimp</li>
-            <li>&#9726; Honey-Lime Sriracha Dipping Sauce</li>
-        </ul>
-    </section>
+        </div>
 
-    <section class="chicken">
-        <h3>Entrees</h3>
-        
+         <div id="vegetarian">
+        <strong><p>Lemon Parmasan Risotto</p></strong>
+        <ul>
+            <li>&#9726; Fresh Lemon</li>
+            <li>&#9726; Parmasan</li>
+            <li>&#9726; Peas</li>
+        </ul>
+      </div>
+        <div id="chicken">
         <strong><p>Chicken</p></strong>
         <ul> 
-            <li>Chicken</li>
+            <li>&#9726; Chicken</li>
             <li>&#9726; Salt & Pepper</li>
             <li>&#9726; Sauce</li>
             
         </ul>
-
+    </div>
+    <div id="seafood">
         <strong><p>Coconut Shrimp</p></strong>
         <ul>
-            <li>Fresh Shrimp</li>
+            <li>&#9726; Fresh Shrimp</li>
             <li>&#9726; Honey-Lime Sriracha Dipping Sauce</li>
         </ul>
+    </div>
     </section>
 
     <section class="dessert">
@@ -85,7 +108,7 @@
         
         <strong><p>Chocolate Lava Cake</p></strong>
         <ul>
-            <li>Warm Gooey Chocolate Center</li>
+            <li>&#9726; Gooey Chocolate Center</li>
             <li>&#9726; Vanilla Ice Cream</li>
         </ul>
     </section>
@@ -93,8 +116,9 @@
     <section class="drinks">
         <h3>Bar Menu</h3>
                 <strong><p>Lemon Drop</p></strong>
+        
         <ul>
-            <li>Vodka</li>
+            <li>&#9726; Vodka</li>
             <li>&#9726; Fresh Lemon</li>
             <li>&#9726; House-Made Simple Syrup</li>
             <li>&#9726; Triple Sec</li>
@@ -102,7 +126,7 @@
 
         <strong><p>Whiskey Sling</p></strong>
         <ul>
-            <li>Whiskey</li>
+            <li>&#9726; Whiskey</li>
             <li>&#9726; Fresh Lemon</li>
             <li>&#9726; House-Made Simple Syrup</li>
             <li>&#9726; Triple Sec</li>
@@ -110,7 +134,7 @@
 
         <strong><p>Wines</p></strong>
         <ul>
-            <li>Sauvignon Blanc</li>
+            <li>&#9726; Sauvignon Blanc</li>
             <li>&#9726; Pinot Grigio</li>
             <li>&#9726; Chardonnay</li>
         </ul>
@@ -121,4 +145,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+</div>
 </html>
